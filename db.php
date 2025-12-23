@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$dbname = "employees";   // ชื่อฐานข้อมูล
+$dbname = "evaluatee";   // ชื่อฐานข้อมูล
 $user = "root";
 $pass = "";
 
