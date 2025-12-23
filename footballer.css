@@ -1,0 +1,124 @@
+body {
+    background: url("images/sanam.png");
+    font-family: 'Poppins', 'Kanit', sans-serif;
+    background-size: cover;     
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  height: 15vh;
+  
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+.navbar ul li {
+  padding: 0 25px;
+}
+.navbar ul li a {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  
+}
+.navbar .logo a {
+  font-size: 2.3rem;
+  color: #fff;
+}
+* a {
+  text-decoration: none;
+}
+* li {
+  list-style: none;
+}
+
+/* หัวข้อใหญ่ */
+.main-title {
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+}
+
+/* กรอบสีขาวหลัก */
+.player-card {
+    background-color: #ffffff;
+    border-radius: 45px; /* ความโค้งมนสูง */
+    max-width: 950px;
+    margin: 0 auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* กรอบรูปภาพ */
+.photo-box {
+    background-color: #969696;
+    padding: 10px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 180px;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* แถบข้อมูลสีเทาเข้ม */
+.info-bar {
+    background-color: #969696;
+    border-radius: 25px;
+    padding: 10px;
+    color: #000;
+}
+
+/* ป้ายชื่อหัวข้อในแถบสีเทา */
+.badge-label {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 2px 25px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+/* ค่าของข้อมูล */
+.info-value {
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+/* กล่องข้อความบรรยาย */
+.description-box {
+    padding: 10px 5px;
+}
+
+.description-box p {
+    color: #333;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* ปุ่มเมนูบนขวา */
+.btn-nav {
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    font-weight: bold;
+    padding: 5px 20px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.btn-nav:hover {
+    background-color: #f0f0f0;
+}

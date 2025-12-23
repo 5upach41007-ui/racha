@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Kanit', sans-serif;
+}
+
+body {
+    
+    background-image: url("images/sanam.png"); 
+    background-size: cover;    
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: 100vh;
+
+   
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  height: 15vh;
+  
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+.navbar ul li {
+  padding: 0 25px;
+}
+.navbar ul li a {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  
+}
+.navbar .logo a {
+  font-size: 2.3rem;
+  color: #fff;
+}
+* a {
+  text-decoration: none;
+}
+* li {
+  list-style: none;
+}
+/* Profile Card Area */
+.profile-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    
+}
+
+.profile-card {
+    background: #f4f4f4;
+    width: 90%;
+    max-width: 550px;
+    padding: 60px 40px;
+    border-radius: 50px; aaaaaaaaaaaad
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    text-align: center;
+    
+}
+
+/* Avatar */
+.avatar-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.avatar-circle {
+    width: 140px;
+    height: 140px;
+    background: #bcbcbc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: white;
+    border: 5px solid white;
+}
+
+.profile-title {
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* Details List */
+.profile-details {
+    text-align: left;
+    max-width: 380px;
+    margin: 0 auto 40px auto;
+}
+
+.detail-item {
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.label {
+    font-weight: 700;
+    font-size: 1rem;
+    width: 120px;
+    color: #333;
+}
+
+.value {
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Password Row */
+.password-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-show {
+    background: #9a9a9a;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-show:hover {
+    background: #777;
+}
+
+/* Footer Buttons */
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.btn {
+    padding: 12px 35px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 700;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.btn-update {
+    background: #9a9a9a;
+    color: white;
+}
+
+.btn-delete {
+    background: #9a9a9a;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    filter: brightness(0.9);
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .profile-card {
+        padding: 40px 20px;
+    }
+    .label {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .action-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Kanit', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #2b70c9 0%, #0e4a9e 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.login-container {
+    display: flex;
+    width: 90%;
+    max-width: 1100px;
+    height: 650px;
+    background: transparent;
+}
+
+/* --- ฝั่งซ้าย Welcome --- */
+.welcome-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+    color: white;
+}
+
+.welcome-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.welcome-content h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.welcome-content p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    opacity: 0.8;
+    max-width: 450px;
+}
+
+/* --- ฝั่งขวา Form Section --- */
+.form-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    background: white;
+    width: 100%;
+    max-width: 420px;
+    padding: 50px 40px;
+    border-radius: 40px; /* ขอบโค้งมนมากตามรูป */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.form-title {
+    color: #0e4a9e;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.form-subtitle {
+    color: #777;
+    font-size: 0.85rem;
+    margin-bottom: 35px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group input, 
+.custom-select {
+    width: 100%;
+    padding: 18px 25px;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    outline: none;
+}
+
+.btn-signin {
+    width: 100%;
+    padding: 16px;
+    background-color: #0e4a9e;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.show-password {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #0e4a9e;
+    cursor: pointer;
+}
+
+/* Options: Remember me & Forgot Pass */
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 35px 0;
+    font-size: 0.85rem;
+}
+
+/* Button Sign In */
+.btn-signin {
+    width: 100%;
+    padding: 16px;
+    background-color: #0e4a9e;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 25px;
+}
+
+.btn-signin:hover {
+    background-color: #2b70c9;
+    transform: translateY(-2px);
+}
+
+.signup-text {
+    font-size: 0.85rem;
+    color: #777;
+}
+
+.signup-text a {
+    color: #0e4a9e;
+    text-decoration: none;
+    font-weight: 600;
+}
+
